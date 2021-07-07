@@ -7,7 +7,7 @@ public class StarPatternIncreasing {
         int first;
         int second;
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter how many Star to print : ");
+        System.out.println("Enter how many Star to print in Increasing Order : ");
         first=sc.nextInt();
         for (int i=1;i<=first;i++){
             for (int j=1;j<=i;j++){
