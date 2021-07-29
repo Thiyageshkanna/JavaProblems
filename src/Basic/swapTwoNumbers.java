@@ -12,7 +12,7 @@ public class swapTwoNumbers {
         int b=scn.nextInt();
 
         int temp;
-//        Here creating temporary variable You know the rest
+//      Here creating temporary variable You know the rest
         temp=b;
         b=a;
         a=temp;
