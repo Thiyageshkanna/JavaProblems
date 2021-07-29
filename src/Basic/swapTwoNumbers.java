@@ -19,5 +19,16 @@ public class swapTwoNumbers {
 
         System.out.println("The Swapped Values are "+a+" "+b);
 
+        String firstName="Thiyagesh";
+        String lastName="Kanna";
+        System.out.println("Before Swapping "+firstName+" "+lastName);
+        String tempString;
+        tempString=lastName;
+        lastName=firstName;
+        firstName=tempString;
+        System.out.println("After Swapping "+firstName+" "+lastName);
+
+
+
     }
 }
