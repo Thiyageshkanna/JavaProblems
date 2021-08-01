@@ -17,11 +17,11 @@ public class Nth_Of_AP {
         System.out.println("The nth element is "+result);
 
 //        To print the list of number with given Input
-        System.out.print(a);
+        System.out.print(a+" ");
         for(int i=1;i<n;i++){
-            int finalResult= a+d;
-            System.out.print(finalResult+" ");
-            a=finalResult;
+            a= a+d;
+            System.out.print(a+" ");
+
         }
     }
 }

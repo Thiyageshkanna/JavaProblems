@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Nth_Of_GP {
     public static void main(String[] args) {
         Scanner scn=new Scanner(System.in);
-        System.out.println("Enter the values of a , d and n \r");
+        System.out.println("Enter the values of a , r and n \r");
         int a=scn.nextInt();
         int r= scn.nextInt();
         int n= scn.nextInt();
