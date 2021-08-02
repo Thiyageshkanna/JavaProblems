@@ -16,7 +16,7 @@ public class Sum_of_n_natural_numbers {
         }
         System.out.println("Naive Method "+result);
 
-        System.out.println("Efficiency Method "+arithmeticMethod(userInput));
+        System.out.println("Efficiency Method "+ arithmeticMethod(userInput));
     }
     static int arithmeticMethod(int number){
         return number*(number+1)/2;
