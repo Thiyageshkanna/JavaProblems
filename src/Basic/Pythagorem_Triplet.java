@@ -8,21 +8,28 @@ public class Pythagorem_Triplet {
         int first=scn.nextInt();
         int second=scn.nextInt();
         int third= scn.nextInt();
-        int temp=0;
-        if(first>=second && first>=third){
-            temp=third;
-            third=first;
-            first=temp;
+        int max=first;
+        Boolean flag;
+        if(second>=max){
+            max=second;
+        }
+        else if(third>max){
+            max=third;
+        }
+        if(max==first){
+            flag=(second*second)+(third*third)==(first*first);
+            System.out.println(flag);
+        }
+        else if(max==second){
+            flag=(first*first)+(third*third)==(second*second);
+            System.out.println(flag);
+        }
+        else  {
+            flag=(first*first)+(second*second)==(third*third);
+            System.out.println(flag);
+        }
 
-        }
-        else if(second>=first && second>=third){
-            temp=third;
-            third=second;
-            second=temp;
-        }
-        System.out.println(first +" "+second+" "+third);
-      if((first*first) + (second*second) ==third*third   ){
-          System.out.println("True");
-      }
+
+
     }
 }
