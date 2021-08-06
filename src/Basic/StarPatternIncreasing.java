@@ -10,7 +10,7 @@ public class StarPatternIncreasing {
         System.out.println("Enter how many Star to print in Increasing Order : ");
         first=sc.nextInt();
         for (int i=1;i<=first;i++){
-            for (int j=1;j<=i;j++){
+            for (int j=1;j<=first;j++){
                 System.out.print("*");
             }
             System.out.println();
