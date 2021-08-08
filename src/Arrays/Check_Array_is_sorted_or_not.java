@@ -22,6 +22,7 @@ public class Check_Array_is_sorted_or_not {
             System.out.println("The entered array is not an sorted array");
         }
     }
+
     static boolean  isSorted(int[] arr){
         for(int i=1;i<arr.length;i++){
             if(arr[i]<arr[i-1]){
