@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class Check_Array_is_sorted_or_not {
     public static void main(String[] args) {
+        System.out.println("Welcome to \"3 Billion Devices Run Java\" Club ");
         Scanner scn=new Scanner(System.in);
-        System.out.println("Enter the total size of an array : Condition only upto Five");
+        System.out.println("Enter the total size of an array : Condition only upto Five:");
         int totalNumber=scn.nextInt();
         int[] arr=new int[totalNumber];
         for(int i=0;i< arr.length;i++){
