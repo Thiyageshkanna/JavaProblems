@@ -14,7 +14,7 @@ public class Check_Array_is_sorted_or_not {
             System.out.println("Enter the "+arrayOfLetters[i]+" element:");
             arr[i]=scn.nextInt();
         }
-
+//        boolean checking
         boolean checks=isSorted(arr);
         if(checks){
             System.out.println("The entered array is an sorted array");
