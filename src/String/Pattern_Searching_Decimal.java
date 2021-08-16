@@ -13,6 +13,7 @@ public class Pattern_Searching_Decimal {
         int position=convert.indexOf(".");
         if(position>=0){
             position+=1;
+            System.out.print("Now the values after decimal are ");
             while(position<=convert.length()-1){
                 System.out.print(convert.charAt(position)+" ");
                 position++;
